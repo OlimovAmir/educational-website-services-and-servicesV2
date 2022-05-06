@@ -29,7 +29,7 @@ body{
 .main-content__block1 {
     width: 320px;
     box-shadow: 35px 0px 60px 0px rgba(0,0,0,.2);
-    overflow-y: scroll;
+    
 }
 
 .icon > img {
@@ -63,20 +63,31 @@ body{
     padding-bottom: 6%;
     padding-left: 4%;
     font-family: 'TT Lakes2';
+    transform: scale(1)
 }
 
-.main-content__section1{
-    font-family: 'TT Lakes2';
+.section:hover{
+    cursor: pointer;
     color: rgb(123, 129, 129);
-    border-left: 5px solid #41f6d7;
-    
+    font-size: 120%;
+    border-bottom: 5px solid #41f6d7;
+    transform: scaleX(1);
+    transition: 0.8s;
 }
+
+.icon:hover{
+    cursor: pointer;
+    transition: all 0.5s;
+    transform: rotate(365deg);
+}
+
+
 
  .main-content__icons {
      
      display: flex;
      justify-content: flex-start;
-     margin-top: 81%;
+     margin-top: 70%;
      padding-left: 4%;
      
  }
@@ -109,6 +120,11 @@ body{
    
 }
 
-.main-content__language1{
+.language:hover{
+    cursor: pointer;
     color: rgb(123, 129, 129);
 } 
+.language:active{
+    color: red;
+    font-size: x-large;
+}
