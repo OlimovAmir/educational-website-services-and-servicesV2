@@ -29,7 +29,7 @@ body{
 .main-content__block1 {
     width: 320px;
     box-shadow: 35px 0px 60px 0px rgba(0,0,0,.2);
-    
+    overflow: hidden;
 }
 
 .icon > img {
@@ -63,16 +63,19 @@ body{
     padding-bottom: 6%;
     padding-left: 4%;
     font-family: 'TT Lakes2';
-    transform: scale(1)
+    transform: scale(1);
+    
+    
+    
 }
 
 .section:hover{
     cursor: pointer;
-    color: rgb(123, 129, 129);
-    font-size: 120%;
-    border-bottom: 5px solid #41f6d7;
-    transform: scaleX(1);
+    color: rgb(71, 126, 245);
+    padding-left: 20%;
+    transform: scaleX(1.08);
     transition: 0.8s;
+    box-shadow: 0 5px 0 0 #34495e;
 }
 
 .icon:hover{
